@@ -1,25 +1,30 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Versailles UMC App</title>
-  <link rel="manifest" href="manifest.json">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Versailles UMC</title>
   <link rel="stylesheet" href="style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
 <body>
-  <div class="hero">
-    <h1>Welcome to Versailles UMC</h1>
-    <p>Stay connected, wherever you are.</p>
-    <div class="buttons">
-      <a href="https://youtube.com" class="btn">Watch Live</a>
-      <a href="https://github.com/vumc-media/vumc-app/blob/acd777a3152025eec5615d73fd16bf28f00d9680/give" class="btn">Give Online</a>
-      <a href="https://sites.google.com/view/vumc-connect/check-in?authuser=0" class="btn">Check In</a>
+  <header>
+    <img src="logo.png" alt="Versailles UMC" class="logo">
+    <h1>Versailles UMC</h1>
+  </header>
+  
+  <main>
+    <div class="card-container">
+      <a href="give.html" class="card"><i class="fas fa-donate"></i> Give</a>
+      <a href="checkin.html" class="card"><i class="fas fa-sign-in-alt"></i> Check In</a>
+      <a href="events.html" class="card"><i class="fas fa-calendar-alt"></i> Events</a>
+      <a href="livestream.html" class="card"><i class="fas fa-video"></i> Livestream</a>
     </div>
-  </div>
+  </main>
+  
   <footer>
-    <p>&copy; 2025 Versailles UMC • Versailles, KY</p>
+    <p>&copy; 2025 Versailles UMC</p>
   </footer>
-  <script src="app.js"></script>
 </body>
 </html>
